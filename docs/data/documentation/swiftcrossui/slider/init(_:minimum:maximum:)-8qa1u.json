@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates a new slider with the given minimum and maximum values and binds an integer.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -314,7 +320,10 @@
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Slider/init(_:minimum:maximum:)-8qa1u": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new slider with the given minimum and maximum values and binds an integer.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
