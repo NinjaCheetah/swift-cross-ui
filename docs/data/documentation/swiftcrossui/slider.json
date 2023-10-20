@@ -318,7 +318,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Slider/init(_:minimum:maximum:)-8qa1u": {
   "abstract" : [
     {
-      "text" : "Creates a new slider with the given minimum and maximum values and binds an integer.",
+      "text" : "Creates a slider to select a value between a minimum and maximum value.",
       "type" : "text"
     }
   ],
@@ -399,7 +399,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Slider/init(_:minimum:maximum:)-bs2t": {
   "abstract" : [
     {
-      "text" : "Creates a new slider with the given minimum and maximum values and binds a floating point number.",
+      "text" : "Creates a slider to select a value between a minimum and maximum value.",
       "type" : "text"
     }
   ],
