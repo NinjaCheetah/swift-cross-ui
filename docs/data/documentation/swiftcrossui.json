@@ -118,6 +118,7 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableColumn",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Text",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TextField",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VStack",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView10",
@@ -160,6 +161,12 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/InheritedOrientation"
       ],
       "title" : "Enumerations"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Swift"
+      ],
+      "title" : "Extended Modules"
     }
   ],
   "variants" : [
@@ -1637,6 +1644,17 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/spacer"
 },
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Swift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Swift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/swift"
+},
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Table": {
   "abstract" : [
     {
@@ -1806,6 +1824,40 @@
   "title" : "TextField",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/textfield"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+  "abstract" : [
+    {
+      "text" : "A control that toggles an option.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ToggleButton"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ToggleButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ToggleButton",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/togglebutton"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/VStack": {
   "abstract" : [
