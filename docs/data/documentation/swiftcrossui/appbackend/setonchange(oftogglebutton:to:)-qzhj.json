@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Sets the change handler of a toggle button (replaces any existing change handlers).",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "AppBackend.setOnChange(ofToggleButton:to:)",
+      "type" : "codeVoice"
     },
     {
-      "text" : "The change handler is called whenever the button is toggled on or off.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -17,17 +17,19 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-2r5w4"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-qzhj"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:12SwiftCrossUI10AppBackendP11setOnChange14ofToggleButton2toy6WidgetQz_ySbctF",
+    "extendedModule" : "SwiftCrossUI",
+    "externalID" : "s:12SwiftCrossUI10AppBackendPAAE11setOnChange14ofToggleButton2toy6WidgetQz_ySbctF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -101,7 +103,6 @@
         "name" : "SwiftCrossUI"
       }
     ],
-    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -225,7 +226,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)"
+        "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-qzhj"
       ],
       "traits" : [
         {
@@ -284,7 +285,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggleButton:to:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggleButton:to:)-2r5w4": {
   "abstract" : [
     {
       "text" : "Sets the change handler of a toggle button (replaces any existing change handlers).",
@@ -298,6 +299,87 @@
       "text" : "The change handler is called whenever the button is toggled on or off.",
       "type" : "text"
     }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setOnChange"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ofToggleButton"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Widget"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "to"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-2r5w4",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "setOnChange(ofToggleButton:to:)",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-2r5w4"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggleButton:to:)-qzhj": {
+  "abstract" : [
+
   ],
   "fragments" : [
     {
@@ -367,13 +449,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-qzhj",
   "kind" : "symbol",
-  "required" : true,
   "role" : "symbol",
   "title" : "setOnChange(ofToggleButton:to:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-qzhj"
 }
 }
 }

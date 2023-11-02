@@ -1436,7 +1436,20 @@
                 "type" : "method"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)",
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-qzhj",
+                        "title" : "func setOnChange(ofToggleButton: Self.Widget, to: (Bool) -> Void)",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "AppBackend Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-2r5w4",
                 "title" : "func setOnChange(ofToggleButton: Self.Widget, to: (Bool) -> Void)",
                 "type" : "method"
               },
