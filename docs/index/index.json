@@ -890,6 +890,24 @@
                   {
                     "children" : [
                       {
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/createswitch(active:onchange:)-4lji1",
+                        "title" : "func createSwitch(active: Bool, onChange: (Bool) -> Void) -> Self.Widget",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "AppBackend Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/createswitch(active:onchange:)-1gmnm",
+                "title" : "func createSwitch(active: Bool, onChange: (Bool) -> Void) -> Self.Widget",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
                         "path" : "\/documentation\/swiftcrossui\/appbackend\/createtable(rows:columns:)-31vyf",
                         "title" : "func createTable(rows: Int, columns: Int) -> Self.Widget",
                         "type" : "method"
@@ -1278,6 +1296,24 @@
                   {
                     "children" : [
                       {
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(ofswitch:to:)-8vjeh",
+                        "title" : "func setIsActive(ofSwitch: Self.Widget, to: Bool)",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "AppBackend Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(ofswitch:to:)-6w4gl",
+                "title" : "func setIsActive(ofSwitch: Self.Widget, to: Bool)",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
                         "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftoggle:to:)-6hk1k",
                         "title" : "func setIsActive(ofToggle: Self.Widget, to: Bool)",
                         "type" : "method"
@@ -1415,6 +1451,24 @@
                 ],
                 "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(ofslider:to:)-7j3la",
                 "title" : "func setOnChange(ofSlider: Self.Widget, to: (Double) -> Void)",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(ofswitch:to:)-3v5fl",
+                        "title" : "func setOnChange(ofSwitch: Self.Widget, to: (Bool) -> Void)",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "AppBackend Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(ofswitch:to:)-8rhir",
+                "title" : "func setOnChange(ofSwitch: Self.Widget, to: (Bool) -> Void)",
                 "type" : "method"
               },
               {
@@ -3529,6 +3583,100 @@
             ],
             "path" : "\/documentation\/swiftcrossui\/spacer",
             "title" : "Spacer",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/switch\/init(active:)",
+                "title" : "init(active: Binding<Bool>)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/switch\/aswidget(backend:)",
+                "title" : "func asWidget<Backend>(backend: Backend) -> Backend.Widget",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/switch\/update(_:backend:)",
+                "title" : "func update<Backend>(Backend.Widget, backend: Backend)",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/state",
+                    "title" : "var state: EmptyState",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/aswidget(_:backend:)",
+                    "title" : "func asWidget<Backend>(ViewGraphNodeChildren, backend: Backend) -> Backend.Widget",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/children(backend:)",
+                    "title" : "func children<Backend>(backend: Backend) -> ViewGraphNodeChildren",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/foregroundcolor(_:)",
+                    "title" : "func foregroundColor(Color) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/frame(minwidth:minheight:)",
+                    "title" : "func frame(minWidth: Int?, minHeight: Int?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/padding(_:)",
+                    "title" : "func padding(Int) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/padding(_:_:)",
+                    "title" : "func padding(Edge.Set, Int) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/update(_:children:backend:)",
+                    "title" : "func update<Backend>(Backend.Widget, children: ViewGraphNodeChildren, backend: Backend)",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/switch\/updatechildren(_:backend:)",
+                    "title" : "func updateChildren<Backend>(ViewGraphNodeChildren, backend: Backend)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/swiftcrossui\/switch\/view-implementations",
+                "title" : "View Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/swiftcrossui\/switch",
+            "title" : "Switch",
             "type" : "struct"
           },
           {
