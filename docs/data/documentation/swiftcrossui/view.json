@@ -99,7 +99,7 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Table",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Text",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TextField",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VStack",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView10",
@@ -859,10 +859,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/textfield"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -877,21 +877,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/VStack": {
   "abstract" : [

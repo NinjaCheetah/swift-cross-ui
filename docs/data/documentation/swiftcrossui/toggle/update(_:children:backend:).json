@@ -17,19 +17,19 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/update(_:children:backend:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:children:backend:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftCrossUI",
-    "externalID" : "s:12SwiftCrossUI4ViewPAAE6update_8children7backendy6WidgetQyd___AA0D17GraphNodeChildren_pqd__tAA10AppBackendRd__lF::SYNTHESIZED::s:12SwiftCrossUI12ToggleButtonV",
+    "externalID" : "s:12SwiftCrossUI4ViewPAAE6update_8children7backendy6WidgetQyd___AA0D17GraphNodeChildren_pqd__tAA10AppBackendRd__lF::SYNTHESIZED::s:12SwiftCrossUI6ToggleV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -255,7 +255,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton\/update(_:children:backend:)"
+        "\/documentation\/swiftcrossui\/toggle\/update(_:children:backend:)"
       ],
       "traits" : [
         {
@@ -348,10 +348,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/foreach"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -366,34 +366,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/View-Implementations": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/view-implementations"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/view-implementations"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/update(_:children:backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/update(_:children:backend:)": {
   "abstract" : [
 
   ],
@@ -472,12 +472,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/update(_:children:backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:children:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "update(_:children:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/update(_:children:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/update(_:children:backend:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/VariadicView1": {
   "abstract" : [

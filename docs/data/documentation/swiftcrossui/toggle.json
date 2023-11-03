@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -14,11 +14,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:12SwiftCrossUI12ToggleButtonV",
+    "externalID" : "s:12SwiftCrossUI6ToggleV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -30,7 +30,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "ToggleButton"
+        "text" : "Toggle"
       }
     ],
     "modules" : [
@@ -41,13 +41,13 @@
     "navigatorTitle" : [
       {
         "kind" : "identifier",
-        "text" : "ToggleButton"
+        "text" : "Toggle"
       }
     ],
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",
-    "title" : "ToggleButton"
+    "title" : "Toggle"
   },
   "primaryContentSections" : [
     {
@@ -70,7 +70,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "ToggleButton"
+              "text" : "Toggle"
             }
           ]
         }
@@ -99,21 +99,21 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/init(_:active:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/asWidget(backend:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/update(_:backend:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(backend:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:backend:)"
       ],
       "title" : "Instance Methods"
     },
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -121,7 +121,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton"
+        "\/documentation\/swiftcrossui\/toggle"
       ],
       "traits" : [
         {
@@ -146,10 +146,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -164,34 +164,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/View-Implementations": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/view-implementations"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/view-implementations"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/asWidget(backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/asWidget(backend:)": {
   "abstract" : [
 
   ],
@@ -249,14 +249,14 @@
       "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/asWidget(backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "asWidget(backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/aswidget(backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/aswidget(backend:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/init(_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:active:)": {
   "abstract" : [
     {
       "text" : "Creates a toggle button that displays a custom label.",
@@ -308,14 +308,14 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/init(_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(_:active:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/init(_:active:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:active:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/update(_:backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/update(_:backend:)": {
   "abstract" : [
 
   ],
@@ -377,12 +377,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/update(_:backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "update(_:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/update(_:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/update(_:backend:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/View": {
   "abstract" : [

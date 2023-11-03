@@ -17,14 +17,14 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/state"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/state"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -61,7 +61,7 @@
       ]
     },
     "extendedModule" : "SwiftCrossUI",
-    "externalID" : "s:12SwiftCrossUI4ViewPA2A10EmptyStateC0F0RtzrlE5stateAEvp::SYNTHESIZED::s:12SwiftCrossUI12ToggleButtonV",
+    "externalID" : "s:12SwiftCrossUI4ViewPA2A10EmptyStateC0F0RtzrlE5stateAEvp::SYNTHESIZED::s:12SwiftCrossUI6ToggleV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -165,7 +165,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton\/state"
+        "\/documentation\/swiftcrossui\/toggle\/state"
       ],
       "traits" : [
         {
@@ -224,10 +224,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/emptystate"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -242,34 +242,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/View-Implementations": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/view-implementations"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/view-implementations"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/state": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/state": {
   "abstract" : [
 
   ],
@@ -328,12 +328,12 @@
       "text" : "EmptyState"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/state",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/state",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "state",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/state"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/state"
 }
 }
 }

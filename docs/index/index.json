@@ -944,8 +944,8 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/swiftcrossui\/appbackend\/createtogglebutton(label:active:onchange:)-46edw",
-                        "title" : "func createToggleButton(label: String, active: Bool, onChange: (Bool) -> Void) -> Self.Widget",
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-3e916",
+                        "title" : "func createToggle(label: String, active: Bool, onChange: (Bool) -> Void) -> Self.Widget",
                         "type" : "method"
                       }
                     ],
@@ -953,8 +953,8 @@
                     "type" : "groupMarker"
                   }
                 ],
-                "path" : "\/documentation\/swiftcrossui\/appbackend\/createtogglebutton(label:active:onchange:)-xer8",
-                "title" : "func createToggleButton(label: String, active: Bool, onChange: (Bool) -> Void) -> Self.Widget",
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-1v1kf",
+                "title" : "func createToggle(label: String, active: Bool, onChange: (Bool) -> Void) -> Self.Widget",
                 "type" : "method"
               },
               {
@@ -1278,8 +1278,8 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftogglebutton:to:)-8cm48",
-                        "title" : "func setIsActive(ofToggleButton: Self.Widget, to: Bool)",
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftoggle:to:)-6hk1k",
+                        "title" : "func setIsActive(ofToggle: Self.Widget, to: Bool)",
                         "type" : "method"
                       }
                     ],
@@ -1287,8 +1287,8 @@
                     "type" : "groupMarker"
                   }
                 ],
-                "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftogglebutton:to:)-3rbj3",
-                "title" : "func setIsActive(ofToggleButton: Self.Widget, to: Bool)",
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftoggle:to:)-6swno",
+                "title" : "func setIsActive(ofToggle: Self.Widget, to: Bool)",
                 "type" : "method"
               },
               {
@@ -1440,8 +1440,8 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-qzhj",
-                        "title" : "func setOnChange(ofToggleButton: Self.Widget, to: (Bool) -> Void)",
+                        "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftoggle:to:)-38k5o",
+                        "title" : "func setOnChange(ofToggle: Self.Widget, to: (Bool) -> Void)",
                         "type" : "method"
                       }
                     ],
@@ -1449,8 +1449,8 @@
                     "type" : "groupMarker"
                   }
                 ],
-                "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-2r5w4",
-                "title" : "func setOnChange(ofToggleButton: Self.Widget, to: (Bool) -> Void)",
+                "path" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftoggle:to:)-8k7mc",
+                "title" : "func setOnChange(ofToggle: Self.Widget, to: (Bool) -> Void)",
                 "type" : "method"
               },
               {
@@ -3896,7 +3896,7 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/togglebutton\/init(_:active:)",
+                "path" : "\/documentation\/swiftcrossui\/toggle\/init(_:active:)",
                 "title" : "init(String, active: Binding<Bool>)",
                 "type" : "init"
               },
@@ -3905,12 +3905,12 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/togglebutton\/aswidget(backend:)",
+                "path" : "\/documentation\/swiftcrossui\/toggle\/aswidget(backend:)",
                 "title" : "func asWidget<Backend>(backend: Backend) -> Backend.Widget",
                 "type" : "method"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/togglebutton\/update(_:backend:)",
+                "path" : "\/documentation\/swiftcrossui\/toggle\/update(_:backend:)",
                 "title" : "func update<Backend>(Backend.Widget, backend: Backend)",
                 "type" : "method"
               },
@@ -3925,7 +3925,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/state",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/state",
                     "title" : "var state: EmptyState",
                     "type" : "property"
                   },
@@ -3934,53 +3934,53 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/aswidget(_:backend:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/aswidget(_:backend:)",
                     "title" : "func asWidget<Backend>(ViewGraphNodeChildren, backend: Backend) -> Backend.Widget",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/children(backend:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/children(backend:)",
                     "title" : "func children<Backend>(backend: Backend) -> ViewGraphNodeChildren",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/foregroundcolor(_:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/foregroundcolor(_:)",
                     "title" : "func foregroundColor(Color) -> some View",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/frame(minwidth:minheight:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/frame(minwidth:minheight:)",
                     "title" : "func frame(minWidth: Int?, minHeight: Int?) -> some View",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/padding(_:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/padding(_:)",
                     "title" : "func padding(Int) -> some View",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/padding(_:_:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/padding(_:_:)",
                     "title" : "func padding(Edge.Set, Int) -> some View",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/update(_:children:backend:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/update(_:children:backend:)",
                     "title" : "func update<Backend>(Backend.Widget, children: ViewGraphNodeChildren, backend: Backend)",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/swiftcrossui\/togglebutton\/updatechildren(_:backend:)",
+                    "path" : "\/documentation\/swiftcrossui\/toggle\/updatechildren(_:backend:)",
                     "title" : "func updateChildren<Backend>(ViewGraphNodeChildren, backend: Backend)",
                     "type" : "method"
                   }
                 ],
-                "path" : "\/documentation\/swiftcrossui\/togglebutton\/view-implementations",
+                "path" : "\/documentation\/swiftcrossui\/toggle\/view-implementations",
                 "title" : "View Implementations",
                 "type" : "symbol"
               }
             ],
-            "path" : "\/documentation\/swiftcrossui\/togglebutton",
-            "title" : "ToggleButton",
+            "path" : "\/documentation\/swiftcrossui\/toggle",
+            "title" : "Toggle",
             "type" : "struct"
           },
           {

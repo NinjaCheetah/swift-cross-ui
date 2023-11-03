@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Positions this view within an invisible frame having the specified minimum size constraints.",
+      "text" : "Adds a specific padding amount to each edge of this view.",
       "type" : "text"
     }
   ],
@@ -9,19 +9,19 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/frame(minWidth:minHeight:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/padding(_:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftCrossUI",
-    "externalID" : "s:12SwiftCrossUI4ViewPAAE5frame8minWidth0F6HeightQrSiSg_AGtF::SYNTHESIZED::s:12SwiftCrossUI12ToggleButtonV",
+    "externalID" : "s:12SwiftCrossUI4ViewPAAE7paddingyQrSiF::SYNTHESIZED::s:12SwiftCrossUI6ToggleV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -33,45 +33,20 @@
       },
       {
         "kind" : "identifier",
-        "text" : "frame"
+        "text" : "padding"
       },
       {
         "kind" : "text",
         "text" : "("
       },
       {
-        "kind" : "externalParam",
-        "text" : "minWidth"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
         "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:Si",
         "text" : "Int"
       },
       {
         "kind" : "text",
-        "text" : "?, "
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "minHeight"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Si",
-        "text" : "Int"
-      },
-      {
-        "kind" : "text",
-        "text" : "?) -> "
+        "text" : ") -> "
       },
       {
         "kind" : "keyword",
@@ -95,7 +70,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "frame(minWidth:minHeight:)"
+    "title" : "padding(_:)"
   },
   "primaryContentSections" : [
     {
@@ -118,7 +93,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "frame"
+              "text" : "padding"
             },
             {
               "kind" : "text",
@@ -126,7 +101,15 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "minWidth"
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "amount"
             },
             {
               "kind" : "text",
@@ -139,24 +122,7 @@
             },
             {
               "kind" : "text",
-              "text" : "? = nil, "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "minHeight"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Si",
-              "text" : "Int"
-            },
-            {
-              "kind" : "text",
-              "text" : "? = nil) -> "
+              "text" : ") -> "
             },
             {
               "kind" : "keyword",
@@ -193,7 +159,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton\/frame(minwidth:minheight:)"
+        "\/documentation\/swiftcrossui\/toggle\/padding(_:)"
       ],
       "traits" : [
         {
@@ -218,10 +184,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -236,37 +202,37 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/View-Implementations": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/view-implementations"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/view-implementations"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/frame(minWidth:minHeight:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/padding(_:)": {
   "abstract" : [
     {
-      "text" : "Positions this view within an invisible frame having the specified minimum size constraints.",
+      "text" : "Adds a specific padding amount to each edge of this view.",
       "type" : "text"
     }
   ],
@@ -281,45 +247,20 @@
     },
     {
       "kind" : "identifier",
-      "text" : "frame"
+      "text" : "padding"
     },
     {
       "kind" : "text",
       "text" : "("
     },
     {
-      "kind" : "externalParam",
-      "text" : "minWidth"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
       "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:Si",
       "text" : "Int"
     },
     {
       "kind" : "text",
-      "text" : "?, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "minHeight"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : "?) -> "
+      "text" : ") -> "
     },
     {
       "kind" : "keyword",
@@ -335,12 +276,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/frame(minWidth:minHeight:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/padding(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "frame(minWidth:minHeight:)",
+  "title" : "padding(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/frame(minwidth:minheight:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/padding(_:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/View": {
   "abstract" : [

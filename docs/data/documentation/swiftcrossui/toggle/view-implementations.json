@@ -3,13 +3,13 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations"
   },
   "kind" : "article",
   "metadata" : {
@@ -33,21 +33,21 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/state"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/state"
       ],
       "title" : "Instance Properties"
     },
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/asWidget(_:backend:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/children(backend:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/foregroundColor(_:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/frame(minWidth:minHeight:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/padding(_:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/padding(_:_:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/update(_:children:backend:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/updateChildren(_:backend:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(_:backend:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/children(backend:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/foregroundColor(_:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/frame(minWidth:minHeight:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/padding(_:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/padding(_:_:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:children:backend:)",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/updateChildren(_:backend:)"
       ],
       "title" : "Instance Methods"
     }
@@ -55,7 +55,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton\/view-implementations"
+        "\/documentation\/swiftcrossui\/toggle\/view-implementations"
       ],
       "traits" : [
         {
@@ -80,10 +80,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -98,23 +98,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/asWidget(_:backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/asWidget(_:backend:)": {
   "abstract" : [
 
   ],
@@ -181,14 +181,14 @@
       "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/asWidget(_:backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(_:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "asWidget(_:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/aswidget(_:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/aswidget(_:backend:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/children(backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/children(backend:)": {
   "abstract" : [
 
   ],
@@ -239,14 +239,14 @@
       "text" : "ViewGraphNodeChildren"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/children(backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/children(backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "children(backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/children(backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/children(backend:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/foregroundColor(_:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/foregroundColor(_:)": {
   "abstract" : [
     {
       "text" : "Sets the color of the foreground elements displayed by this view.",
@@ -293,14 +293,14 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/foregroundColor(_:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/foregroundColor(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "foregroundColor(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/foregroundcolor(_:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/foregroundcolor(_:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/frame(minWidth:minHeight:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/frame(minWidth:minHeight:)": {
   "abstract" : [
     {
       "text" : "Positions this view within an invisible frame having the specified minimum size constraints.",
@@ -372,14 +372,14 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/frame(minWidth:minHeight:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/frame(minWidth:minHeight:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "frame(minWidth:minHeight:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/frame(minwidth:minheight:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/frame(minwidth:minheight:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/padding(_:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/padding(_:)": {
   "abstract" : [
     {
       "text" : "Adds a specific padding amount to each edge of this view.",
@@ -426,14 +426,14 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/padding(_:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/padding(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "padding(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/padding(_:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/padding(_:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/padding(_:_:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/padding(_:_:)": {
   "abstract" : [
     {
       "text" : "Adds an equal padding amount to specific edges of this view.",
@@ -498,14 +498,14 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/padding(_:_:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/padding(_:_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "padding(_:_:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/padding(_:_:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/padding(_:_:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/state": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/state": {
   "abstract" : [
 
   ],
@@ -564,14 +564,14 @@
       "text" : "EmptyState"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/state",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/state",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "state",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/state"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/state"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/update(_:children:backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/update(_:children:backend:)": {
   "abstract" : [
 
   ],
@@ -650,14 +650,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/update(_:children:backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:children:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "update(_:children:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/update(_:children:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/update(_:children:backend:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/updateChildren(_:backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/updateChildren(_:backend:)": {
   "abstract" : [
 
   ],
@@ -712,12 +712,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/updateChildren(_:backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/updateChildren(_:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "updateChildren(_:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/updatechildren(_:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/updatechildren(_:backend:)"
 }
 }
 }

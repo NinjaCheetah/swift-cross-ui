@@ -239,7 +239,7 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createTable(rows:columns:)-36alh",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createTextField(content:placeholder:onChange:)-7zu87",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createTextView(content:shouldWrap:)-f6zp",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggleButton(label:active:onChange:)-xer8",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-1v1kf",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createVStack(spacing:)-2yalt",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/getChild(ofPaddingContainer:)-31zda",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/getContent(ofTextField:)-755gm",
@@ -259,7 +259,7 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setExpandVertically(ofSpacer:to:)-3mp2c",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setFilePath(ofImageView:to:)-1cqj7",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setForegroundColor(ofForegroundColorContainer:to:)-2tyr9",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggleButton:to:)-3rbj3",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggle:to:)-6swno",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setLabel(ofButton:to:)-4x3t5",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setMaximum(ofSlider:to:)-6tatt",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setMinHeight(ofFrameContainer:to:)-69hwd",
@@ -268,7 +268,7 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofPicker:to:)-7ksqa",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofSlider:to:)-7j3la",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofTextField:to:)-6bixo",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-2r5w4",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggle:to:)-8k7mc",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOptions(ofPicker:to:)-2wmpb",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setPadding(ofPaddingContainer:top:bottom:leading:trailing:)-3i82z",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setPlaceholder(ofTextField:to:)-7mrkp",
@@ -2895,10 +2895,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend\/createtextview(content:shouldwrap:)-f6zp"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggleButton(label:active:onChange:)-xer8": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggle(label:active:onChange:)-1v1kf": {
   "abstract" : [
     {
-      "text" : "Created a labelled toggle button that toggles a Bool on click. Predominantly",
+      "text" : "Creates a labelled toggle that is either on or off. Predominantly used by",
       "type" : "text"
     },
     {
@@ -2906,11 +2906,7 @@
       "type" : "text"
     },
     {
-      "text" : "used by ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
       "isActive" : true,
       "type" : "reference"
     },
@@ -2931,7 +2927,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "createToggleButton"
+      "text" : "createToggle"
     },
     {
       "kind" : "text",
@@ -3010,13 +3006,13 @@
       "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggleButton(label:active:onChange:)-xer8",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-1v1kf",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
-  "title" : "createToggleButton(label:active:onChange:)",
+  "title" : "createToggle(label:active:onChange:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtogglebutton(label:active:onchange:)-xer8"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-1v1kf"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createVStack(spacing:)-2yalt": {
   "abstract" : [
@@ -4496,7 +4492,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend\/setforegroundcolor(offoregroundcolorcontainer:to:)-2tyr9"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setIsActive(ofToggleButton:to:)-3rbj3": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setIsActive(ofToggle:to:)-6swno": {
   "abstract" : [
     {
       "text" : "Sets the state of the button to active or not.",
@@ -4523,7 +4519,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "ofToggleButton"
+      "text" : "ofToggle"
     },
     {
       "kind" : "text",
@@ -4563,13 +4559,13 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggleButton:to:)-3rbj3",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggle:to:)-6swno",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
-  "title" : "setIsActive(ofToggleButton:to:)",
+  "title" : "setIsActive(ofToggle:to:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftogglebutton:to:)-3rbj3"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftoggle:to:)-6swno"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setLabel(ofButton:to:)-4x3t5": {
   "abstract" : [
@@ -5230,10 +5226,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftextfield:to:)-6bixo"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggleButton:to:)-2r5w4": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggle:to:)-8k7mc": {
   "abstract" : [
     {
-      "text" : "Sets the change handler of a toggle button (replaces any existing change handlers).",
+      "text" : "Sets the change handler of a toggle (replaces any existing change handlers).",
       "type" : "text"
     },
     {
@@ -5265,7 +5261,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "ofToggleButton"
+      "text" : "ofToggle"
     },
     {
       "kind" : "text",
@@ -5314,13 +5310,13 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-2r5w4",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggle:to:)-8k7mc",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
-  "title" : "setOnChange(ofToggleButton:to:)",
+  "title" : "setOnChange(ofToggle:to:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-2r5w4"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftoggle:to:)-8k7mc"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOptions(ofPicker:to:)-2wmpb": {
   "abstract" : [
@@ -6636,10 +6632,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/textfield"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -6654,21 +6650,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/VStack": {
   "abstract" : [

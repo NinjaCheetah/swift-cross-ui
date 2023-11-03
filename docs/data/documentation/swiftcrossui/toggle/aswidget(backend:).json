@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a toggle button that displays a custom label.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "ElementaryView.asWidget(backend:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -9,38 +17,45 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/init(_:active:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(backend:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:12SwiftCrossUI12ToggleButtonV_6activeACSS_AA7BindingCySbGtcfc",
+    "externalID" : "s:12SwiftCrossUI6ToggleV8asWidget7backend0F0Qzx_tAA10AppBackendRzlF",
     "fragments" : [
       {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
         "kind" : "identifier",
-        "text" : "init"
+        "text" : "asWidget"
       },
       {
         "kind" : "text",
-        "text" : "("
+        "text" : "<"
       },
       {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SS",
-        "text" : "String"
+        "kind" : "genericParameter",
+        "text" : "Backend"
       },
       {
         "kind" : "text",
-        "text" : ", "
+        "text" : ">("
       },
       {
         "kind" : "externalParam",
-        "text" : "active"
+        "text" : "backend"
       },
       {
         "kind" : "text",
@@ -48,21 +63,23 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12SwiftCrossUI7BindingC",
-        "text" : "Binding"
+        "text" : "Backend"
       },
       {
         "kind" : "text",
-        "text" : "<"
+        "text" : ") -> "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
+        "text" : "Backend"
       },
       {
         "kind" : "text",
-        "text" : ">)"
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Widget"
       }
     ],
     "modules" : [
@@ -71,9 +88,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Initializer",
-    "symbolKind" : "init",
-    "title" : "init(_:active:)"
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "asWidget(backend:)"
   },
   "primaryContentSections" : [
     {
@@ -88,63 +105,81 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "init"
-            },
-            {
-              "kind" : "text",
-              "text" : "("
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "_"
+              "text" : "func"
             },
             {
               "kind" : "text",
               "text" : " "
             },
             {
-              "kind" : "internalParam",
-              "text" : "label"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SS",
-              "text" : "String"
-            },
-            {
-              "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "active"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Binding",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12SwiftCrossUI7BindingC",
-              "text" : "Binding"
+              "kind" : "identifier",
+              "text" : "asWidget"
             },
             {
               "kind" : "text",
               "text" : "<"
             },
             {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
+              "kind" : "genericParameter",
+              "text" : "Backend"
             },
             {
               "kind" : "text",
-              "text" : ">)"
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "backend"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Backend"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Backend"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Widget"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Backend"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP",
+              "text" : "AppBackend"
             }
           ]
         }
@@ -163,7 +198,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton\/init(_:active:)"
+        "\/documentation\/swiftcrossui\/toggle\/aswidget(backend:)"
       ],
       "traits" : [
         {
@@ -188,25 +223,17 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Binding": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend": {
   "abstract" : [
     {
-      "text" : "A value that can read and write a value owned by a source of truth. Can be thought of",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "as a writable reference to the value.",
+      "text" : "A backend that can be used to run an app (e.g. Gtk or Qt).",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "class"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -214,26 +241,26 @@
     },
     {
       "kind" : "identifier",
-      "text" : "Binding"
+      "text" : "AppBackend"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Binding",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "Binding"
+      "text" : "AppBackend"
     }
   ],
   "role" : "symbol",
-  "title" : "Binding",
+  "title" : "AppBackend",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/binding"
+  "url" : "\/documentation\/swiftcrossui\/appbackend"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -248,50 +275,54 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/init(_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/asWidget(backend:)": {
   "abstract" : [
-    {
-      "text" : "Creates a toggle button that displays a custom label.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
       "kind" : "identifier",
-      "text" : "init"
+      "text" : "asWidget"
     },
     {
       "kind" : "text",
-      "text" : "("
+      "text" : "<"
     },
     {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
+      "kind" : "genericParameter",
+      "text" : "Backend"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : ">("
     },
     {
       "kind" : "externalParam",
-      "text" : "active"
+      "text" : "backend"
     },
     {
       "kind" : "text",
@@ -299,29 +330,31 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12SwiftCrossUI7BindingC",
-      "text" : "Binding"
+      "text" : "Backend"
     },
     {
       "kind" : "text",
-      "text" : "<"
+      "text" : ") -> "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
+      "text" : "Backend"
     },
     {
       "kind" : "text",
-      "text" : ">)"
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/init(_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(backend:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(_:active:)",
+  "title" : "asWidget(backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/init(_:active:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/aswidget(backend:)"
 }
 }
 }

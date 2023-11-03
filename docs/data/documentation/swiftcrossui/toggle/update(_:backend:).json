@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "AppBackend.setIsActive(ofToggleButton:to:)",
+      "code" : "ElementaryView.update(_:backend:)",
       "type" : "codeVoice"
     },
     {
@@ -17,19 +17,17 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggleButton:to:)-3rbj3"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggleButton:to:)-8cm48"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:backend:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "SwiftCrossUI",
-    "externalID" : "s:12SwiftCrossUI10AppBackendPAAE11setIsActive14ofToggleButton2toy6WidgetQz_SbtF",
+    "externalID" : "s:12SwiftCrossUI6ToggleV6update_7backendy6WidgetQz_xtAA10AppBackendRzlF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,23 +39,23 @@
       },
       {
         "kind" : "identifier",
-        "text" : "setIsActive"
+        "text" : "update"
       },
       {
         "kind" : "text",
-        "text" : "("
+        "text" : "<"
       },
       {
-        "kind" : "externalParam",
-        "text" : "ofToggleButton"
+        "kind" : "genericParameter",
+        "text" : "Backend"
       },
       {
         "kind" : "text",
-        "text" : ": "
+        "text" : ">("
       },
       {
         "kind" : "typeIdentifier",
-        "text" : "Self"
+        "text" : "Backend"
       },
       {
         "kind" : "text",
@@ -73,7 +71,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "to"
+        "text" : "backend"
       },
       {
         "kind" : "text",
@@ -81,8 +79,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
+        "text" : "Backend"
       },
       {
         "kind" : "text",
@@ -97,7 +94,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "setIsActive(ofToggleButton:to:)"
+    "title" : "update(_:backend:)"
   },
   "primaryContentSections" : [
     {
@@ -120,15 +117,23 @@
             },
             {
               "kind" : "identifier",
-              "text" : "setIsActive"
+              "text" : "update"
             },
             {
               "kind" : "text",
-              "text" : "("
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Backend"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
             },
             {
               "kind" : "externalParam",
-              "text" : "ofToggleButton"
+              "text" : "_"
             },
             {
               "kind" : "text",
@@ -136,7 +141,7 @@
             },
             {
               "kind" : "internalParam",
-              "text" : "toggleButton"
+              "text" : "widget"
             },
             {
               "kind" : "text",
@@ -144,7 +149,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "Self"
+              "text" : "Backend"
             },
             {
               "kind" : "text",
@@ -160,15 +165,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "to"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "active"
+              "text" : "backend"
             },
             {
               "kind" : "text",
@@ -176,12 +173,33 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
+              "text" : "Backend"
             },
             {
               "kind" : "text",
-              "text" : ")"
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Backend"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP",
+              "text" : "AppBackend"
             }
           ]
         }
@@ -200,7 +218,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftogglebutton:to:)-8cm48"
+        "\/documentation\/swiftcrossui\/toggle\/update(_:backend:)"
       ],
       "traits" : [
         {
@@ -259,18 +277,17 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setIsActive(ofToggleButton:to:)-3rbj3": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "Sets the state of the button to active or not.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
-  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "func"
+      "text" : "struct"
     },
     {
       "kind" : "text",
@@ -278,63 +295,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "setIsActive"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "ofToggleButton"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Widget"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "to"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggleButton:to:)-3rbj3",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
-  "required" : true,
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Toggle"
+    }
+  ],
   "role" : "symbol",
-  "title" : "setIsActive(ofToggleButton:to:)",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftogglebutton:to:)-3rbj3"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setIsActive(ofToggleButton:to:)-8cm48": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/update(_:backend:)": {
   "abstract" : [
 
   ],
@@ -349,23 +326,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "setIsActive"
+      "text" : "update"
     },
     {
       "kind" : "text",
-      "text" : "("
+      "text" : "<"
     },
     {
-      "kind" : "externalParam",
-      "text" : "ofToggleButton"
+      "kind" : "genericParameter",
+      "text" : "Backend"
     },
     {
       "kind" : "text",
-      "text" : ": "
+      "text" : ">("
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
+      "text" : "Backend"
     },
     {
       "kind" : "text",
@@ -381,7 +358,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "to"
+      "text" : "backend"
     },
     {
       "kind" : "text",
@@ -389,20 +366,19 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
+      "text" : "Backend"
     },
     {
       "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setIsActive(ofToggleButton:to:)-8cm48",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "setIsActive(ofToggleButton:to:)",
+  "title" : "update(_:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setisactive(oftogglebutton:to:)-8cm48"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/update(_:backend:)"
 }
 }
 }

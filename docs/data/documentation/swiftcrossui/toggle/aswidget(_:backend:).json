@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "View.children(backend:)",
+      "code" : "View.asWidget(_:backend:)",
       "type" : "codeVoice"
     },
     {
@@ -17,19 +17,19 @@
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/children(backend:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(_:backend:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftCrossUI",
-    "externalID" : "s:12SwiftCrossUI4ViewPAAE8children7backendAA0D17GraphNodeChildren_pqd___tAA10AppBackendRd__lF::SYNTHESIZED::s:12SwiftCrossUI12ToggleButtonV",
+    "externalID" : "s:12SwiftCrossUI4ViewPAAE8asWidget_7backend0F0Qyd__AA0D17GraphNodeChildren_p_qd__tAA10AppBackendRd__lF::SYNTHESIZED::s:12SwiftCrossUI6ToggleV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "children"
+        "text" : "asWidget"
       },
       {
         "kind" : "text",
@@ -54,6 +54,15 @@
       {
         "kind" : "text",
         "text" : ">("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
+        "text" : "ViewGraphNodeChildren"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -73,8 +82,15 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
-        "text" : "ViewGraphNodeChildren"
+        "text" : "Backend"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Widget"
       }
     ],
     "modules" : [
@@ -85,7 +101,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "children(backend:)"
+    "title" : "asWidget(_:backend:)"
   },
   "primaryContentSections" : [
     {
@@ -108,7 +124,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "children"
+              "text" : "asWidget"
             },
             {
               "kind" : "text",
@@ -121,6 +137,32 @@
             {
               "kind" : "text",
               "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "children"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNodeChildren",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
+              "text" : "ViewGraphNodeChildren"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -139,10 +181,16 @@
               "text" : ") -> "
             },
             {
-              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNodeChildren",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
-              "text" : "ViewGraphNodeChildren"
+              "text" : "Backend"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Widget"
             },
             {
               "kind" : "text",
@@ -187,7 +235,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/togglebutton\/children(backend:)"
+        "\/documentation\/swiftcrossui\/toggle\/aswidget(_:backend:)"
       ],
       "traits" : [
         {
@@ -280,10 +328,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/foreach"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -298,34 +346,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/View-Implementations": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/View-Implementations",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/view-implementations"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/view-implementations"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton/children(backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/asWidget(_:backend:)": {
   "abstract" : [
 
   ],
@@ -340,7 +388,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "children"
+      "text" : "asWidget"
     },
     {
       "kind" : "text",
@@ -353,6 +401,15 @@
     {
       "kind" : "text",
       "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
+      "text" : "ViewGraphNodeChildren"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -372,16 +429,23 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
-      "text" : "ViewGraphNodeChildren"
+      "text" : "Backend"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton\/children(backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(_:backend:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "children(backend:)",
+  "title" : "asWidget(_:backend:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton\/children(backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/aswidget(_:backend:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/VariadicView1": {
   "abstract" : [

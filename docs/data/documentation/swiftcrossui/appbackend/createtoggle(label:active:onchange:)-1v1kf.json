@@ -1,35 +1,46 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
+      "text" : "Creates a labelled toggle that is either on or off. Predominantly used by",
       "type" : "text"
     },
     {
-      "code" : "AppBackend.createToggleButton(label:active:onChange:)",
-      "type" : "codeVoice"
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
       "type" : "text"
     }
   ],
+  "defaultImplementationsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-3e916"
+      ],
+      "title" : "AppBackend Implementations"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggleButton(label:active:onChange:)-xer8"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggleButton(label:active:onChange:)-46edw"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-1v1kf"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "SwiftCrossUI",
-    "externalID" : "s:12SwiftCrossUI10AppBackendPAAE18createToggleButton5label6active8onChange6WidgetQzSS_SbySbctF",
+    "externalID" : "s:12SwiftCrossUI10AppBackendP12createToggle5label6active8onChange6WidgetQzSS_SbySbctF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,7 +52,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "createToggleButton"
+        "text" : "createToggle"
       },
       {
         "kind" : "text",
@@ -125,10 +136,11 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "createToggleButton(label:active:onChange:)"
+    "title" : "createToggle(label:active:onChange:)"
   },
   "primaryContentSections" : [
     {
@@ -151,7 +163,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "createToggleButton"
+              "text" : "createToggle"
             },
             {
               "kind" : "text",
@@ -254,7 +266,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/appbackend\/createtogglebutton(label:active:onchange:)-46edw"
+        "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-1v1kf"
       ],
       "traits" : [
         {
@@ -313,111 +325,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggleButton(label:active:onChange:)-46edw": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "createToggleButton"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "label"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "active"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "onChange"
-    },
-    {
-      "kind" : "text",
-      "text" : ": ("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4Voida",
-      "text" : "Void"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Widget"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggleButton(label:active:onChange:)-46edw",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "createToggleButton(label:active:onChange:)",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtogglebutton(label:active:onchange:)-46edw"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggleButton(label:active:onChange:)-xer8": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggle(label:active:onChange:)-1v1kf": {
   "abstract" : [
     {
-      "text" : "Created a labelled toggle button that toggles a Bool on click. Predominantly",
+      "text" : "Creates a labelled toggle that is either on or off. Predominantly used by",
       "type" : "text"
     },
     {
@@ -425,11 +336,7 @@
       "type" : "text"
     },
     {
-      "text" : "used by ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
       "isActive" : true,
       "type" : "reference"
     },
@@ -450,7 +357,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "createToggleButton"
+      "text" : "createToggle"
     },
     {
       "kind" : "text",
@@ -529,18 +436,119 @@
       "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggleButton(label:active:onChange:)-xer8",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-1v1kf",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
-  "title" : "createToggleButton(label:active:onChange:)",
+  "title" : "createToggle(label:active:onChange:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtogglebutton(label:active:onchange:)-xer8"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-1v1kf"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleButton": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggle(label:active:onChange:)-3e916": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "createToggle"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "label"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "active"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "onChange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Widget"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-3e916",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "createToggle(label:active:onChange:)",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-3e916"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
     {
-      "text" : "A control that toggles an option.",
+      "text" : "A control that is either on or off.",
       "type" : "text"
     }
   ],
@@ -555,21 +563,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleButton",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToggleButton"
+      "text" : "Toggle"
     }
   ],
   "role" : "symbol",
-  "title" : "ToggleButton",
+  "title" : "Toggle",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglebutton"
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 }
 }
 }

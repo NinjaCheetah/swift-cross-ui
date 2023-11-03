@@ -1,41 +1,35 @@
 {
   "abstract" : [
     {
-      "text" : "Sets the change handler of a toggle button (replaces any existing change handlers).",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "AppBackend.createToggle(label:active:onChange:)",
+      "type" : "codeVoice"
     },
     {
-      "text" : "The change handler is called whenever the button is toggled on or off.",
+      "text" : ".",
       "type" : "text"
-    }
-  ],
-  "defaultImplementationsSections" : [
-    {
-      "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-qzhj"
-      ],
-      "title" : "AppBackend Implementations"
     }
   ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-1v1kf"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-2r5w4"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-3e916"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:12SwiftCrossUI10AppBackendP11setOnChange14ofToggleButton2toy6WidgetQz_ySbctF",
+    "extendedModule" : "SwiftCrossUI",
+    "externalID" : "s:12SwiftCrossUI10AppBackendPAAE12createToggle5label6active8onChange6WidgetQzSS_SbySbctF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -47,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "setOnChange"
+        "text" : "createToggle"
       },
       {
         "kind" : "text",
@@ -55,7 +49,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "ofToggleButton"
+        "text" : "label"
       },
       {
         "kind" : "text",
@@ -63,15 +57,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "text" : "Self"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "text" : "Widget"
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
       },
       {
         "kind" : "text",
@@ -79,7 +66,24 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "to"
+        "text" : "active"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "onChange"
       },
       {
         "kind" : "text",
@@ -101,7 +105,19 @@
       },
       {
         "kind" : "text",
-        "text" : ")"
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Widget"
       }
     ],
     "modules" : [
@@ -109,11 +125,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
-    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "setOnChange(ofToggleButton:to:)"
+    "title" : "createToggle(label:active:onChange:)"
   },
   "primaryContentSections" : [
     {
@@ -136,7 +151,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "setOnChange"
+              "text" : "createToggle"
             },
             {
               "kind" : "text",
@@ -144,15 +159,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "ofToggleButton"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "toggleButton"
+              "text" : "label"
             },
             {
               "kind" : "text",
@@ -160,15 +167,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "Self"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "kind" : "typeIdentifier",
-              "text" : "Widget"
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
             },
             {
               "kind" : "text",
@@ -176,14 +176,23 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "to"
+              "text" : "active"
             },
             {
               "kind" : "text",
-              "text" : " "
+              "text" : ": "
             },
             {
-              "kind" : "internalParam",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
               "text" : "onChange"
             },
             {
@@ -214,7 +223,19 @@
             },
             {
               "kind" : "text",
-              "text" : ")"
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Widget"
             }
           ]
         }
@@ -233,7 +254,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-2r5w4"
+        "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-3e916"
       ],
       "traits" : [
         {
@@ -292,10 +313,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggleButton:to:)-2r5w4": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggle(label:active:onChange:)-1v1kf": {
   "abstract" : [
     {
-      "text" : "Sets the change handler of a toggle button (replaces any existing change handlers).",
+      "text" : "Creates a labelled toggle that is either on or off. Predominantly used by",
       "type" : "text"
     },
     {
@@ -303,7 +324,12 @@
       "type" : "text"
     },
     {
-      "text" : "The change handler is called whenever the button is toggled on or off.",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -319,7 +345,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "setOnChange"
+      "text" : "createToggle"
     },
     {
       "kind" : "text",
@@ -327,7 +353,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "ofToggleButton"
+      "text" : "label"
     },
     {
       "kind" : "text",
@@ -335,15 +361,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Widget"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     },
     {
       "kind" : "text",
@@ -351,7 +370,24 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "to"
+      "text" : "active"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "onChange"
     },
     {
       "kind" : "text",
@@ -373,18 +409,30 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-2r5w4",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-1v1kf",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
-  "title" : "setOnChange(ofToggleButton:to:)",
+  "title" : "createToggle(label:active:onChange:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-2r5w4"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-1v1kf"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setOnChange(ofToggleButton:to:)-qzhj": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createToggle(label:active:onChange:)-3e916": {
   "abstract" : [
 
   ],
@@ -399,7 +447,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "setOnChange"
+      "text" : "createToggle"
     },
     {
       "kind" : "text",
@@ -407,7 +455,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "ofToggleButton"
+      "text" : "label"
     },
     {
       "kind" : "text",
@@ -415,15 +463,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Widget"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     },
     {
       "kind" : "text",
@@ -431,7 +472,24 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "to"
+      "text" : "active"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "onChange"
     },
     {
       "kind" : "text",
@@ -453,15 +511,61 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Widget"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/setOnChange(ofToggleButton:to:)-qzhj",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/createToggle(label:active:onChange:)-3e916",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "setOnChange(ofToggleButton:to:)",
+  "title" : "createToggle(label:active:onChange:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/appbackend\/setonchange(oftogglebutton:to:)-qzhj"
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/createtoggle(label:active:onchange:)-3e916"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
+  "abstract" : [
+    {
+      "text" : "A control that is either on or off.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Toggle"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Toggle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Toggle",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/toggle"
 }
 }
 }
