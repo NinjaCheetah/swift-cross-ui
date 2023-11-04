@@ -135,7 +135,7 @@
             },
             {
               "kind" : "internalParam",
-              "text" : "backendSwitch"
+              "text" : "switchWidget"
             },
             {
               "kind" : "text",
