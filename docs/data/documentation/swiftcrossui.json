@@ -113,7 +113,6 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ScrollView",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Slider",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Spacer",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Switch",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Table",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableBuilder",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableColumn",
@@ -1655,40 +1654,6 @@
   "title" : "Swift",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/swift"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Switch": {
-  "abstract" : [
-    {
-      "text" : "A control that is either on or off.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Switch"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Switch",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Switch"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "Switch",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/switch"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Table": {
   "abstract" : [
