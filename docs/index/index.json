@@ -3950,8 +3950,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/toggle\/init(_:_:active:)",
-                "title" : "init(ToggleStyle, String, active: Binding<Bool>)",
+                "path" : "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)",
+                "title" : "init(selectedToggleStyle: ToggleStyle, String, active: Binding<Bool>)",
                 "type" : "init"
               },
               {
@@ -3962,6 +3962,20 @@
                 "path" : "\/documentation\/swiftcrossui\/toggle\/body",
                 "title" : "var body: some View",
                 "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/toggle\/selectedtogglestyle",
+                "title" : "let selectedToggleStyle: ToggleStyle",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/toggle\/togglestyle(_:)",
+                "title" : "func toggleStyle(ToggleStyle) -> Toggle",
+                "type" : "method"
               },
               {
                 "title" : "Default Implementations",

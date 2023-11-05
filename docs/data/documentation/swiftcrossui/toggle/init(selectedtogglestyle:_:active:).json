@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a toggle button that displays a custom label.",
+      "text" : "Creates a toggle that displays a custom label.",
       "type" : "text"
     }
   ],
@@ -15,11 +15,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:_:active:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:12SwiftCrossUI6ToggleV__6activeAcA0D5StyleO_SSAA7BindingCySbGtcfc",
+    "externalID" : "s:12SwiftCrossUI6ToggleV08selectedD5Style_6activeAcA0dF0O_SSAA7BindingCySbGtcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -28,6 +28,14 @@
       {
         "kind" : "text",
         "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "selectedToggleStyle"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
       },
       {
         "kind" : "typeIdentifier",
@@ -82,7 +90,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(_:_:active:)"
+    "title" : "init(selectedToggleStyle:_:active:)"
   },
   "primaryContentSections" : [
     {
@@ -105,15 +113,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "_"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "toggleStyle"
+              "text" : "selectedToggleStyle"
             },
             {
               "kind" : "text",
@@ -127,7 +127,7 @@
             },
             {
               "kind" : "text",
-              "text" : ", "
+              "text" : " = .button, "
             },
             {
               "kind" : "externalParam",
@@ -198,7 +198,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/toggle\/init(_:_:active:)"
+        "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)"
       ],
       "traits" : [
         {
@@ -296,10 +296,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(selectedToggleStyle:_:active:)": {
   "abstract" : [
     {
-      "text" : "Creates a toggle button that displays a custom label.",
+      "text" : "Creates a toggle that displays a custom label.",
       "type" : "text"
     }
   ],
@@ -311,6 +311,14 @@
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "selectedToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -357,12 +365,12 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(_:_:active:)",
+  "title" : "init(selectedToggleStyle:_:active:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:_:active:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleStyle": {
   "abstract" : [

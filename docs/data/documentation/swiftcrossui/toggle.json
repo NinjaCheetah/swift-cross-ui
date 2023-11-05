@@ -93,15 +93,22 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:_:active:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/body"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/body",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/selectedToggleStyle"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/toggleStyle(_:)"
+      ],
+      "title" : "Instance Methods"
     },
     {
       "generated" : true,
@@ -223,10 +230,10 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/toggle\/body"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(selectedToggleStyle:_:active:)": {
   "abstract" : [
     {
-      "text" : "Creates a toggle button that displays a custom label.",
+      "text" : "Creates a toggle that displays a custom label.",
       "type" : "text"
     }
   ],
@@ -238,6 +245,14 @@
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "selectedToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -284,12 +299,95 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(_:_:active:)",
+  "title" : "init(selectedToggleStyle:_:active:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:_:active:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/selectedToggleStyle": {
+  "abstract" : [
+    {
+      "text" : "The style of toggle shown.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectedToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
+      "text" : "ToggleStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/selectedToggleStyle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "selectedToggleStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/toggle\/selectedtogglestyle"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/toggleStyle(_:)": {
+  "abstract" : [
+    {
+      "text" : "Sets the style of the toggle.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
+      "text" : "ToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI6ToggleV",
+      "text" : "Toggle"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/toggleStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toggleStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/toggle\/togglestyle(_:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/View": {
   "abstract" : [
