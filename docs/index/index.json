@@ -3592,100 +3592,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/switch\/init(active:)",
-                "title" : "init(active: Binding<Bool>)",
-                "type" : "init"
-              },
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/swiftcrossui\/switch\/aswidget(backend:)",
-                "title" : "func asWidget<Backend>(backend: Backend) -> Backend.Widget",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/swiftcrossui\/switch\/update(_:backend:)",
-                "title" : "func update<Backend>(Backend.Widget, backend: Backend)",
-                "type" : "method"
-              },
-              {
-                "title" : "Default Implementations",
-                "type" : "groupMarker"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Instance Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/state",
-                    "title" : "var state: EmptyState",
-                    "type" : "property"
-                  },
-                  {
-                    "title" : "Instance Methods",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/aswidget(_:backend:)",
-                    "title" : "func asWidget<Backend>(ViewGraphNodeChildren, backend: Backend) -> Backend.Widget",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/children(backend:)",
-                    "title" : "func children<Backend>(backend: Backend) -> ViewGraphNodeChildren",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/foregroundcolor(_:)",
-                    "title" : "func foregroundColor(Color) -> some View",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/frame(minwidth:minheight:)",
-                    "title" : "func frame(minWidth: Int?, minHeight: Int?) -> some View",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/padding(_:)",
-                    "title" : "func padding(Int) -> some View",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/padding(_:_:)",
-                    "title" : "func padding(Edge.Set, Int) -> some View",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/update(_:children:backend:)",
-                    "title" : "func update<Backend>(Backend.Widget, children: ViewGraphNodeChildren, backend: Backend)",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/swiftcrossui\/switch\/updatechildren(_:backend:)",
-                    "title" : "func updateChildren<Backend>(ViewGraphNodeChildren, backend: Backend)",
-                    "type" : "method"
-                  }
-                ],
-                "path" : "\/documentation\/swiftcrossui\/switch\/view-implementations",
-                "title" : "View Implementations",
-                "type" : "symbol"
-              }
-            ],
-            "path" : "\/documentation\/swiftcrossui\/switch",
-            "title" : "Switch",
-            "type" : "struct"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Initializers",
-                "type" : "groupMarker"
-              },
-              {
                 "path" : "\/documentation\/swiftcrossui\/table\/init(_:_:)",
                 "title" : "init([Row], () -> [TableColumn<Row>])",
                 "type" : "init"
@@ -4044,23 +3950,18 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/toggle\/init(_:active:)",
-                "title" : "init(String, active: Binding<Bool>)",
+                "path" : "\/documentation\/swiftcrossui\/toggle\/init(_:_:active:)",
+                "title" : "init(ToggleStyle, String, active: Binding<Bool>)",
                 "type" : "init"
               },
               {
-                "title" : "Instance Methods",
+                "title" : "Instance Properties",
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/swiftcrossui\/toggle\/aswidget(backend:)",
-                "title" : "func asWidget<Backend>(backend: Backend) -> Backend.Widget",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/swiftcrossui\/toggle\/update(_:backend:)",
-                "title" : "func update<Backend>(Backend.Widget, backend: Backend)",
-                "type" : "method"
+                "path" : "\/documentation\/swiftcrossui\/toggle\/body",
+                "title" : "var body: some View",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -6878,6 +6779,47 @@
             ],
             "path" : "\/documentation\/swiftcrossui\/inheritedorientation",
             "title" : "InheritedOrientation",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/togglestyle\/button",
+                "title" : "case button",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/swiftcrossui\/togglestyle\/switch",
+                "title" : "case `switch`",
+                "type" : "case"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/swiftcrossui\/togglestyle\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/swiftcrossui\/togglestyle\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/swiftcrossui\/togglestyle",
+            "title" : "ToggleStyle",
             "type" : "enum"
           },
           {

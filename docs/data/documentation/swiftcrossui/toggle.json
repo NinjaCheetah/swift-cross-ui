@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "A control that is either on or off.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -99,16 +93,15 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:_:active:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(backend:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:backend:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/body"
       ],
-      "title" : "Instance Methods"
+      "title" : "Instance Properties"
     },
     {
       "generated" : true,
@@ -148,10 +141,7 @@
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle": {
   "abstract" : [
-    {
-      "text" : "A control that is either on or off.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -191,14 +181,14 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/toggle\/view-implementations"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/asWidget(backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/body": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "func"
+      "text" : "var"
     },
     {
       "kind" : "text",
@@ -206,57 +196,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "asWidget"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Backend"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "backend"
+      "text" : "body"
     },
     {
       "kind" : "text",
       "text" : ": "
     },
     {
-      "kind" : "typeIdentifier",
-      "text" : "Backend"
+      "kind" : "keyword",
+      "text" : "some"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Backend"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Widget"
+      "preciseIdentifier" : "s:12SwiftCrossUI4ViewP",
+      "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/asWidget(backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/body",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "asWidget(backend:)",
+  "title" : "body",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/aswidget(backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/body"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:_:active:)": {
   "abstract" : [
     {
       "text" : "Creates a toggle button that displays a custom label.",
@@ -271,6 +238,15 @@
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
+      "text" : "ToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "typeIdentifier",
@@ -308,81 +284,12 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:_:active:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(_:active:)",
+  "title" : "init(_:_:active:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:active:)"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/update(_:backend:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "update"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Backend"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Backend"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Widget"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "backend"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Backend"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/update(_:backend:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "update(_:backend:)",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/update(_:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:_:active:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/View": {
   "abstract" : [

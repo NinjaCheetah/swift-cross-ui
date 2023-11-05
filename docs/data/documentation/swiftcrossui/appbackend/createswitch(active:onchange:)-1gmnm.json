@@ -5,9 +5,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Switch",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Switch",
+      "type" : "codeVoice"
     }
   ],
   "defaultImplementationsSections" : [
@@ -290,9 +289,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Switch",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Switch",
+      "type" : "codeVoice"
     }
   ],
   "defaultImplementations" : 1,
@@ -460,40 +458,6 @@
   "title" : "createSwitch(active:onChange:)",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend\/createswitch(active:onchange:)-4lji1"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Switch": {
-  "abstract" : [
-    {
-      "text" : "A control that is either on or off.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Switch"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Switch",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Switch"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "Switch",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/switch"
 }
 }
 }
