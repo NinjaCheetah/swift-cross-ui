@@ -86,9 +86,13 @@ swift run WindowPropertiesExample
 swift run GreetingGeneratorExample
 swift run FileViewerExample
 swift run NavigationExample
+swift run SpitExample
+swift run StressTestExample
+swift run SpreadsheetExample
+swift run ControlsExample
 ```
 
-All examples use the `GtkBackend` but can easily be updated to test out other backends.
+All examples use the `GtkBackend` but can easily be updated to test out other backends. You can read more about each example [here](https://stackotter.github.io/swift-cross-ui/documentation/swiftcrossui/examples).
 
 ## Documentation
 
@@ -128,7 +132,7 @@ sed -i '' 's/-I..includedir.//g' $(brew --prefix)/Library/Homebrew/os/mac/pkgcon
 
 ### Linux: Installing Gtk 4 and Clang
 
-Install Gtk 4 and Clang using apt or the package manager of your choice. On most GNOME-based systems, Gtk should already be installed (although you should verify that it's Gtk 3).
+Install Gtk 4 and Clang using apt or the package manager of your choice. On most GNOME-based systems, Gtk should already be installed (although you should verify that it's Gtk 4).
 
 ```sh
 sudo apt install libgtk-4-dev clang
