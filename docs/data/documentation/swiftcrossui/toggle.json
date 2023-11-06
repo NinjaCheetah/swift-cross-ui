@@ -93,14 +93,13 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/body",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/selectedToggleStyle"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/body"
       ],
       "title" : "Instance Properties"
     },
@@ -230,7 +229,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/toggle\/body"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(selectedToggleStyle:_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:active:)": {
   "abstract" : [
     {
       "text" : "Creates a toggle that displays a custom label.",
@@ -245,23 +244,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "selectedToggleStyle"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
-      "text" : "ToggleStyle"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
     },
     {
       "kind" : "typeIdentifier",
@@ -299,49 +281,12 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(selectedToggleStyle:_:active:)",
+  "title" : "init(_:active:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/selectedToggleStyle": {
-  "abstract" : [
-    {
-      "text" : "The style of toggle shown.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "selectedToggleStyle"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
-      "text" : "ToggleStyle"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/selectedToggleStyle",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "selectedToggleStyle",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/selectedtogglestyle"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:active:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/toggleStyle(_:)": {
   "abstract" : [

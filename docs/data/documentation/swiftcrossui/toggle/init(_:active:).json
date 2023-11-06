@@ -15,11 +15,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)"
+    "url" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:12SwiftCrossUI6ToggleV08selectedD5Style_6activeAcA0dF0O_SSAA7BindingCySbGtcfc",
+    "externalID" : "s:12SwiftCrossUI6ToggleV_6activeACSS_AA7BindingCySbGtcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -28,23 +28,6 @@
       {
         "kind" : "text",
         "text" : "("
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "selectedToggleStyle"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
-        "text" : "ToggleStyle"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
       },
       {
         "kind" : "typeIdentifier",
@@ -90,7 +73,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(selectedToggleStyle:_:active:)"
+    "title" : "init(_:active:)"
   },
   "primaryContentSections" : [
     {
@@ -110,24 +93,6 @@
             {
               "kind" : "text",
               "text" : "("
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "selectedToggleStyle"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleStyle",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
-              "text" : "ToggleStyle"
-            },
-            {
-              "kind" : "text",
-              "text" : " = .button, "
             },
             {
               "kind" : "externalParam",
@@ -198,7 +163,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)"
+        "\/documentation\/swiftcrossui\/toggle\/init(_:active:)"
       ],
       "traits" : [
         {
@@ -296,7 +261,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/toggle"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(selectedToggleStyle:_:active:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/Toggle/init(_:active:)": {
   "abstract" : [
     {
       "text" : "Creates a toggle that displays a custom label.",
@@ -311,23 +276,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "selectedToggleStyle"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12SwiftCrossUI11ToggleStyleO",
-      "text" : "ToggleStyle"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
     },
     {
       "kind" : "typeIdentifier",
@@ -365,43 +313,12 @@
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(selectedToggleStyle:_:active:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle\/init(_:active:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(selectedToggleStyle:_:active:)",
+  "title" : "init(_:active:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/toggle\/init(selectedtogglestyle:_:active:)"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/ToggleStyle": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ToggleStyle"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ToggleStyle",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ToggleStyle"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ToggleStyle",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/togglestyle"
+  "url" : "\/documentation\/swiftcrossui\/toggle\/init(_:active:)"
 }
 }
 }
