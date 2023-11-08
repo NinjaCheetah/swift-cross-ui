@@ -179,6 +179,22 @@
         {
           "inlineContent" : [
             {
+              "text" : "For Fedora:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "sudo dnf install gtk4-devel clang"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
               "text" : "If your distro uses a different package manager, the package names will likely be similar.",
               "type" : "text"
             }
@@ -210,10 +226,27 @@
         },
         {
           "code" : [
-            ".package(url: \"https:\/\/github.com\/stackotter\/swift-cross-ui\", .branch(\"main\"))"
+            ".package(url: \"https:\/\/github.com\/stackotter\/swift-cross-ui\", branch: \"main\")"
           ],
           "syntax" : "swift",
           "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "It is recommended that you specify a commit or version instead of using ",
+              "type" : "text"
+            },
+            {
+              "code" : "main",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", because SwiftCrossUI is under heavy development, and things may change that could break your code.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         },
         {
           "inlineContent" : [
@@ -231,7 +264,7 @@
             "let package = Package(",
             "  name: \"Example\",",
             "  dependencies: [",
-            "    .package(url: \"https:\/\/github.com\/stackotter\/swift-cross-ui\", .branch(\"main\"))",
+            "    .package(url: \"https:\/\/github.com\/stackotter\/swift-cross-ui\", branch: \"main\")",
             "  ],",
             "  targets: [",
             "    .executableTarget(",

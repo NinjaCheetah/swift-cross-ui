@@ -153,6 +153,17 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraph",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNode"
+      ],
+      "title" : "Implementation Details"
+    }
+  ],
   "topicSections" : [
     {
       "identifiers" : [
@@ -195,6 +206,87 @@
   "title" : "SwiftCrossUI",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode": {
+  "abstract" : [
+    {
+      "text" : "A type-erased ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNode",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ". Used by implementations of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNodeChildren",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "to avoid leaking the selected backend into ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/View",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " implementations (which would be",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "an annoying complexity for users of the library and it worth the slight sacrifice",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "in performance and strong-typing). The user never sees such type-erased wrappers.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyViewGraphNode"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyViewGraphNode"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyViewGraphNode",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/EmptyViewGraphNodeChildren": {
   "abstract" : [
@@ -717,6 +809,98 @@
   "title" : "View",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/view"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/ViewGraph": {
+  "abstract" : [
+    {
+      "text" : "The root of the view graph which shadows the app’s view structure with extra metadata,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "cross-update state persistence, and behind the scenes backend widget handling. This is",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "where state updates are propagated through the view hierarchy, and also where view bodies",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "get recomputed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewGraph"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraph",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewGraph"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewGraph",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/viewgraph"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/ViewGraphNode": {
+  "abstract" : [
+    {
+      "text" : "A view graph node storing a view, its widget, and its children (likely a collection of more nodes).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewGraphNode"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNode",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewGraphNode"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewGraphNode",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/viewgraphnode"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/ViewGraphNodeChildren": {
   "abstract" : [
