@@ -130,6 +130,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Button",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/CellPosition",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Color",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ForEach",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/HStack",
@@ -147,6 +148,7 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Text",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TextField",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewContent",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VStack"
       ],
       "title" : "Views"
@@ -242,6 +244,40 @@
   "title" : "Button",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/button"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/CellPosition": {
+  "abstract" : [
+    {
+      "text" : "The position of a cell in a table (with row and column numbers starting from 0).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CellPosition"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/CellPosition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CellPosition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CellPosition",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/cellposition"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/Color": {
   "abstract" : [
@@ -2336,6 +2372,38 @@
   "title" : "ViewBuilder",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/viewbuilder"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/ViewContent": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewContent"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewContent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewContent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewContent",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/viewcontent"
 }
 }
 }

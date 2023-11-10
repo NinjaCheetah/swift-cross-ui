@@ -70,7 +70,7 @@
     {
       "abstract" : [
         {
-          "text" : "The top level of your app",
+          "text" : "The top level of your app.",
           "type" : "text"
         }
       ],
@@ -83,12 +83,13 @@
     {
       "abstract" : [
         {
-          "text" : "SwiftCrossUI has a wide variety of views available that you can combine to create complex UIs.",
+          "text" : "The wide variety of views available that you can combine to create complex UIs.",
           "type" : "text"
         }
       ],
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Button",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/CellPosition",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Color",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ForEach",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/HStack",
@@ -107,11 +108,18 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TextField",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Toggle",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/View",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewContent",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VStack"
       ],
       "title" : "Views"
     },
     {
+      "abstract" : [
+        {
+          "text" : "Objects that are read from and\/or written to as part of your app.",
+          "type" : "text"
+        }
+      ],
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppState",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/Binding",
@@ -127,8 +135,19 @@
       "title" : "States"
     },
     {
+      "abstract" : [
+        {
+          "text" : "The detailed components that are part of the low level of SwiftCrossUI.",
+          "type" : "text"
+        }
+      ],
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EitherView",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyView",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyViewGraphNodeChildren",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/OptionalView",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableBuilder",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraph",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNode",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNodeChildren"
@@ -151,12 +170,6 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/CellPosition",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EitherView",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyView",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyViewGraphNodeChildren",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/OptionalView",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableBuilder",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView10",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView2",
@@ -180,12 +193,6 @@
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/WindowProperties"
       ],
       "title" : "Structures"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewContent"
-      ],
-      "title" : "Type Aliases"
     },
     {
       "identifiers" : [
