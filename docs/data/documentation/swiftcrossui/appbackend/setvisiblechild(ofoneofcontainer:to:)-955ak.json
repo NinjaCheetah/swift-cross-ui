@@ -1,7 +1,23 @@
 {
   "abstract" : [
     {
-      "text" : "Sets the visible child of a one-of container.",
+      "text" : "Sets the visible child of a one-of container. Uses a widget reference instead of an",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "index since the visible child should remain the same even if the visible child’s",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "index changes (e.g. due to a child being removed from before the visible child).",
       "type" : "text"
     }
   ],
@@ -352,7 +368,23 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/setVisibleChild(ofOneOfContainer:to:)-955ak": {
   "abstract" : [
     {
-      "text" : "Sets the visible child of a one-of container.",
+      "text" : "Sets the visible child of a one-of container. Uses a widget reference instead of an",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "index since the visible child should remain the same even if the visible child’s",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "index changes (e.g. due to a child being removed from before the visible child).",
       "type" : "text"
     }
   ],
